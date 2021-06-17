@@ -43,7 +43,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
-
+.description-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
 .github-logo {
     position: absolute;
     width: 83px;

@@ -63,7 +63,7 @@
                                 <h3 class="curriculum-subtitle">{{education['degree']}}</h3>
                                 <h4 class="code-comment">// {{education['date']}}</h4>
                                 {% if education['description'] %}
-                                    <p class="description">{{education['description']}}</p>
+                                    <p class="description-1">{{education['description']}}</p>
                                 {% endif %}
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                         <div class="col">
                             <h2 class="curriculum-subtitle">{{experience['title']}}</h2>
                             <h4 class="code-comment">// {{experience['date']}}</h4>
-                            <p class="description">{{experience['description']}}</p>
+                            <p class="description-1">{{experience['description']}}</p>
                         </div>
                     </div>
                     {% endfor %}
@@ -117,7 +117,7 @@
                                     <a href="{{project['github']}}"><img style="height: 42px;" src="../static/img/github-icon.png" alt=""></a>
                                 </div>
                             </div>
-                            <p class="description">{{project['description']}}</p>
+                            <p class="description-1">{{project['description']}}</p>
                         </div>
                     </div>
                     {% endfor %}
@@ -136,7 +136,7 @@
                         <div class="col-10">
                             <h2 class="curriculum-subtitle">{{achievement['title']}}</h2>
                             <h4 class="code-comment">// {{achievement['title']}}</h4>
-                            <p>{{achievement['description']}}</p>
+                            <p class="description-1">{{achievement['description']}}</p>
                         </div>
                     </div>
                     {% endfor %}
@@ -156,7 +156,7 @@
                         <div class="col-10">
                             <h2 class="curriculum-subtitle">{{extracurricular['title']}}</h2>
                             <h4 class="code-comment">// {{extracurricular['title']}}</h4>
-                            <p>{{extracurricular['description']}}</p>
+                            <p class="description-1">{{extracurricular['description']}}</p>
                         </div>
                     </div>
                     {% endfor %}
