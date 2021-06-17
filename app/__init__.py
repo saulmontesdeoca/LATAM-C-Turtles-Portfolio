@@ -16,3 +16,7 @@ def profile(name):
     json_url = os.path.join(SITE_ROOT, SITE_FOLDER, f"{name}.json")
     data = json.load(open(json_url))
     return render_template('profile.html', data=data)
+
+@app.route('/health')
+def health():
+    return 'It Works!', 200
