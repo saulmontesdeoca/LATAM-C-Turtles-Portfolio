@@ -1,3 +1,6 @@
 # this is the name of the environment
 mlh-portfolio
 env
+flask.sqlite
+__pycache__
+*.pyc
