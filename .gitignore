@@ -4,4 +4,4 @@ env
 flask.sqlite
 __pycache__
 *.pyc
-.env
+*.env
