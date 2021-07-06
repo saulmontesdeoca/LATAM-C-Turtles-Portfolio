@@ -35,8 +35,8 @@ class UserModel(db.Model):
         return f"<User {self.username}>"
 
 # code by kOssi (https://stackoverflow.com/questions/21133976/flask-load-local-json)
-# SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-# SITE_FOLDER = "static/data"
+SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+SITE_FOLDER = "static/data"
 
 @app.route('/')
 def index():
