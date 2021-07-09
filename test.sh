@@ -1,6 +1,6 @@
 function test {
     domain="https://saulmontesdeoca.tech"
-    declare -a endpoints=("" "health" "login" "register" "profile/saul")
+    declare -a endpoints=("" "health" "register" "login" "profile/saul")
 
     # random users and passwords
     username=$(date | md5sum)
