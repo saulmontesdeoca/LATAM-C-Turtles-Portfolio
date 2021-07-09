@@ -14,7 +14,7 @@ services:
     image: postgres
     restart: always
     env_file:
-      - .env
+      - h.env
 
   nginx:
     image: jonasal/nginx-certbot:latest
