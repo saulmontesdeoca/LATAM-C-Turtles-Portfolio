@@ -33,3 +33,9 @@ jobs:
 
       - name: Centosaurus alert
         run: curl -s -X POST "${{ secrets.DISCORD_WEBHOOK }}" -d "content=🚀 Deployment Successful"
+
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Test endpoints
+        run: bash test.sh
