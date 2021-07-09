@@ -3,6 +3,23 @@
     "last_name": "Montes De Oca",
     "img": "profile-saul.png",
     "description": "I'm a Computer Science student and MLH Production Engineering Fellow living in Mexico City. I like frontend development with React and backend development with Mongo and flask. I have a passion for technology and music. In my free time a like to play piano, watch movies and go to the park with my dogs. Feel free to take a look around and contact me if you'd like to have a chat.",
+    "links": [
+        {
+            "name": "Github",
+            "link_url": "https://github.com/saulmontesdeoca",
+            "img_url": "github-icon.png"
+        },
+        {
+            "name": "LinkedIn",
+            "link_url": "https://www.linkedin.com/in/saulmontesdeoca/",
+            "img_url": "linkedin.png"
+        },
+        {
+            "name": "Email",
+            "link_url": "mailto:a01025975@itesm.mx?Subject=Hey%20Saul!",
+            "img_url": "email.png"
+        }
+    ],
     "education": [
         {
             "title": "Tecnológico de Monterrey CSF",

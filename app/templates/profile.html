@@ -40,6 +40,17 @@
             </div>
         </div>
     </div>
+    {% if data['links'] %}
+    <div class="row justify-content-center links mt-4 mb-3">
+        {% for link in data['links'] %}
+        <div class="col-2">
+            <a href="{{link['link_url']}}" target="_blank" style="margin-left: 24px; margin-right: 24px;">
+                <img style="height: 64px;" src="../static/img/{{link['img_url']}}" alt="{{link['name']}}">
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
 </div>
 <section class="curriculum">
     <div class="row">
